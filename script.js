@@ -713,7 +713,8 @@ function sendWhatsAppMessage() {
     return;
   }
 
-  let message = `Slt, Mwen vle pran sevis sa:\n` +
+  let message = `Slt *Mr Brunet*,Bondye beni ou.\n` +
+                 `Mwen vle pran sevis sa:\n` +
                  `${currentProduct.nom}\n` +
                 `Peyi : ${currentProduct.section}\n`;
 
