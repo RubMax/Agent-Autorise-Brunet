@@ -719,9 +719,9 @@ function sendWhatsAppMessage() {
                 `*Pou* : ${currentProduct.section}\n`;
 
   if (currentProduct.selectedSize) {
-    message += `\nDesc : ${currentProduct.selectedSize}`;
+    message += `\n*Desc :* ${currentProduct.selectedSize}`;
   } else if (sizesArray.length === 1) {
-    message += `\nDesc : ${sizesArray[0]}`;
+    message += `\n*Desc :* ${sizesArray[0]}`;
   }
 
   // Ouvre WhatsApp
