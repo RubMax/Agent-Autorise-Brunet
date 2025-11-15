@@ -716,7 +716,7 @@ function sendWhatsAppMessage() {
   let message = `Slt *Mr Brunet*,Bondye beni ou.\n` +
                  `Mwen vle pran sevis sa:\n` +
                  `${currentProduct.nom}\n` +
-                `Peyi : ${currentProduct.section}\n`;
+                `*Pou* : ${currentProduct.section}\n`;
 
   if (currentProduct.selectedSize) {
     message += `\nDesc : ${currentProduct.selectedSize}`;
